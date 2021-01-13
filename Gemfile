@@ -28,10 +28,10 @@ gem 'sdoc'
 
 gem 'puma'
 gem 'devise'
-gem 'omniauth'
+gem 'omniauth', '>= 2.0.0'
 gem 'paperclip'
 gem 'aws-sdk', '< 3' # 2 is out but not compatible with paperclip
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 gem 'simple_form'
 gem 'foundation-rails', '5.5.3.2' #git: 'https://github.com/embersds/foundation-rails', branch: 'v5'
 gem 'kaminari'
