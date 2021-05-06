@@ -22,7 +22,7 @@ gem 'gitlab-turbolinks-classic'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc'
+gem 'sdoc', '>= 1.0.0'
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 
