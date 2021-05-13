@@ -26,7 +26,7 @@ gem 'sdoc'
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 
-gem 'puma'
+gem 'puma', '>= 4.3.8'
 gem 'devise'
 gem 'omniauth'
 gem 'paperclip'
