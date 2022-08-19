@@ -28,7 +28,7 @@ gem 'sdoc', '>= 1.0.0'
 
 gem 'puma', '>= 4.3.12'
 gem 'devise', '>= 4.7.0'
-gem 'omniauth'
+gem 'omniauth', '>= 2.0.0'
 gem 'paperclip'
 gem 'aws-sdk', '< 3' # 2 is out but not compatible with paperclip
 gem 'redcarpet'
