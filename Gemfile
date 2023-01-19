@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 ruby '2.6.7'
 
-gem 'dotenv-rails' , '>= 2.2.2' # We want dotenv to load before everything else.
+gem 'dotenv-rails' , '>= 2.7.6' # We want dotenv to load before everything else.
 
-gem 'rails', '>= 5.2.8.1'
+gem 'rails', '>= 6.1.7.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
-gem 'sass-rails'
+gem 'sass-rails', '>= 5.0.8'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 # Use CoffeeScript for .js.coffee assets and views
@@ -41,7 +41,7 @@ gem 'sidekiq', '>= 6.4.0'
 gem 'delayed_paperclip', '>= 3.0.1', '< 4'
 # gem 'sinatra' # used for sidekiq ui
 gem 'jwt'
-gem 'font-awesome-rails', '< 5'
+gem 'font-awesome-rails', '>= 4.7.0.6', '< 5'
 gem 'bundle-audit'
 gem 'sentry-raven'
 
@@ -59,14 +59,14 @@ gem 'worldbuilder', :path => 'engines/worldbuilder'
 
 group :development, :test do
   gem 'figaro'
-  gem 'meta_request'
+  gem 'meta_request', '>= 0.7.0'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'foreman'
   gem 'get_process_mem'
-  gem 'rails-controller-testing'
+  gem 'rails-controller-testing', '>= 1.0.3'
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen', '~> 2.0.1'
   gem 'listen', '~> 3.0.5'
 end
 
