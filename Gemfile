@@ -37,7 +37,7 @@ gem 'foundation-rails', '5.5.3.2' #git: 'https://github.com/embersds/foundation-
 gem 'kaminari'
 gem 'stripe'
 gem 'redis'
-gem 'sidekiq', '>= 6.4.0'
+gem 'sidekiq', '>= 7.0.8'
 gem 'delayed_paperclip', '>= 3.0.1', '< 4'
 # gem 'sinatra' # used for sidekiq ui
 gem 'jwt'
