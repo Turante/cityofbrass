@@ -3,11 +3,11 @@ ruby '2.6.7'
 
 gem 'dotenv-rails' , '>= 2.2.2' # We want dotenv to load before everything else.
 
-gem 'rails', '>= 5.2.8.1'
+gem 'rails', '>= 7.0.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 # Use CoffeeScript for .js.coffee assets and views
@@ -33,11 +33,11 @@ gem 'paperclip'
 gem 'aws-sdk', '< 3' # 2 is out but not compatible with paperclip
 gem 'redcarpet'
 gem 'simple_form', '>= 4.0.0'
-gem 'foundation-rails', '5.5.3.2' #git: 'https://github.com/embersds/foundation-rails', branch: 'v5'
+gem 'foundation-rails', '6.5.1.0' #git: 'https://github.com/embersds/foundation-rails', branch: 'v5'
 gem 'kaminari'
 gem 'stripe'
 gem 'redis'
-gem 'sidekiq', '>= 6.4.0'
+gem 'sidekiq', '>= 6.1.0'
 gem 'delayed_paperclip', '>= 3.0.1', '< 4'
 # gem 'sinatra' # used for sidekiq ui
 gem 'jwt'
