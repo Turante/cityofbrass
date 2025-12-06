@@ -42,7 +42,7 @@ gem 'delayed_paperclip', '>= 3.0.1', '< 4'
 # gem 'sinatra' # used for sidekiq ui
 gem 'jwt'
 gem 'font-awesome-rails', '< 5'
-gem 'bundle-audit'
+gem 'bundle-audit', '>= 0.2.0'
 gem 'sentry-raven'
 
 # City of Brass
